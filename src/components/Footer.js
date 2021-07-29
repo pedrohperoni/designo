@@ -31,10 +31,10 @@ export function Footer(){
             </div>
             <div className="socialMedia">
                <Link to="https://www.instagram.com/"><FaInstagram size={30}/></Link>
-               <Link to="https://www.instagram.com/"><FaTwitter size={30} /></Link>
-               <Link to="https://www.instagram.com/"><FaYoutube size={30} /></Link>
-               <Link to="https://www.instagram.com/"><FaPinterest size={30}t /></Link>
-               <Link to="https://www.instagram.com/"><FaFacebook size={30} /></Link>
+               <Link to="https://www.twitter.com/"><FaTwitter size={30} /></Link>
+               <Link to="https://www.youtube.com/"><FaYoutube size={30} /></Link>
+               <Link to="https://www.pinterest.com/"><FaPinterest size={30}t /></Link>
+               <Link to="https://www.facebook.com/"><FaFacebook size={30} /></Link>
             </div>
 
          </div>
