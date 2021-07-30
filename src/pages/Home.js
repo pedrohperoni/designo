@@ -21,13 +21,34 @@ export function Home(){
                   <img src={phone} alt="iphone" />
                </div>
             </div>
+            <div className="designHome">
+               <div className="designHomeWeb">
+                  <div className="designHomeBoxTxt">
+                     <h2>WEB DESIGN</h2>
+                     <h4>VIEW PROJECTS</h4>
+                  </div>
+               </div>
+               <div className="designHomeRight">
+                  <div className="designHomeApp">
+                     <div className="designHomeBoxTxt">
+                        <h2>APP DESIGN</h2>
+                        <h4>VIEW PROJECTS ></h4>
+                     </div>
+                  </div>
+                  <div className="designHomeGraphic">
+                     <div className="designHomeBoxTxt">
+                        <h2>GRAPHIC DESIGN</h2>
+                        <h4>VIEW PROJECTS</h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
 
 
 
 
 
-            <div className="designHome"></div>
             <div className="featuresHome"></div>
             <div className="talkHome"></div>
          </div>

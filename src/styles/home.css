@@ -3,7 +3,10 @@
    display: flex;
    align-items: center;
    justify-content: center;
+   flex-direction: column;
 }
+
+/* 1st container */
 
 .heroHome{
    width:1110px;
@@ -14,6 +17,7 @@
    justify-content: center;
    border-radius:18px;
    overflow:hidden;
+   margin-bottom: 160px;
 }
 
 .heroHomeTxt{
@@ -34,4 +38,78 @@
 .heroHomeImg img{
    position: relative;
    top: 120px;
+}
+
+/* 2nd container */
+
+.designHome{
+   width:1110px;
+   height:640px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius:18px;
+   overflow:hidden;
+   margin-bottom: 160px;
+}
+
+.designHomeWeb{
+   width:50%;
+   background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../assets/images/home/image-web-design-large.jpg);
+   height:100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 25px;
+   border-radius: 18px;
+}
+
+.designHomeRight{
+   width:50%;
+   height: 640px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 18px;
+}
+
+.designHomeApp, .designHomeGraphic{
+   height: 307.5px;
+   width: 100%;
+   border-radius: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.designHomeApp{
+   margin-bottom: 25px;
+   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../assets/images/home/image-app-design.jpg)
+}
+
+.designHomeGraphic{
+   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../assets/images/home/image-graphic-design.jpg);
+}
+
+
+.designHomeBoxTxt{;
+   color: var(--white);
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   flex-direction: column;
+   width: 220px;
+}
+
+.designHomeBoxTxt h2{
+   color: var(--white);
+   margin-bottom: 20px;
+}
+
+.designHomeBoxTxt h4{
+   color: var(--white);
+   font-size: 15px;
+   line-height: 22px;
+   letter-spacing:2px;
 }
