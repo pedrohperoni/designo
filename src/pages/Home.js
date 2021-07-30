@@ -1,7 +1,8 @@
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import "../styles/home.css"
-import phone from "../assets/images/home/image-hero-phone.png"
+import phone from "../assets/images/home/desktop/image-hero-phone.png"
+import { GetInTouch } from "../components/GetInTouch";
 
 export function Home(){
    return(
@@ -50,9 +51,10 @@ export function Home(){
 
 
             <div className="featuresHome"></div>
-            <div className="talkHome"></div>
+            <GetInTouch />
          </div>
       </main>
+
       <Footer />
       </div>
    )
