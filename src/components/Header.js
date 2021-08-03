@@ -18,7 +18,7 @@ export function Header(){
                <nav className="headerLinks">
                   <Link className="headerLink" to="/">OUR COMPANY</Link>
                   <Link className="headerLink" to="/">LOCATIONS</Link>
-                  <Link className="headerLink" to="/">CONTACT</Link>
+                  <Link className="headerLink" to="/contact">CONTACT</Link>
                </nav>
             </div>
          </div>

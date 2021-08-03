@@ -28,15 +28,37 @@ a {
    line-height: 0rem;
  }
 
- button {
+button {
    outline: none;
    border: none;
    background: none;
- }
+}
 
- .main{
+.main{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
- }
- 
+}
+
+.button {
+   font-family: 'Jost', sans-serif;
+   width: 15.2rem;
+   height: 5.6rem;
+   line-height: 5.6rem;
+   text-align: center;
+   font-size: 1.5rem;
+   letter-spacing: 0.1rem;
+   font-weight: v(f500);
+   border-radius: 0.8rem;
+   z-index: 500; 
+   text-transform: uppercase;
+   background-color: var(--white);
+
+   transition: 0.2s ease-in-out;
+}
+
+.button:hover{
+   cursor: pointer;
+   background: var(--light-peach);
+   color: var(--white);
+}
