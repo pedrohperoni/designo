@@ -4,6 +4,7 @@ import "../styles/home.css"
 import phone from "../assets/images/home/desktop/image-hero-phone.png"
 import { GetInTouch } from "../components/GetInTouch";
 
+
 export function Home(){
    return(
       <div className="main">
@@ -52,6 +53,7 @@ export function Home(){
 
             <div className="featuresHome"></div>
             <GetInTouch />
+
          </div>
       </main>
 
