@@ -16,9 +16,27 @@ body, * {
 }
 
 h1{
-   font-size: 3.2rem;
-   line-height: 3.2rem;
+   font-size: 3rem;
+   line-height: 3rem;
    font-weight: 500;
+   font-style: normal;
+}
+
+h2{
+   font-size: 2.5rem;
+   font-weight: 500;
+   letter-spacing: 2px;
+}
+
+h3{
+   font-size:1rem;
+   font-weight: 400;
+}
+
+h4{
+   font-weight: 500;
+   font-size: 0.95rem;
+   letter-spacing:5px
 }
 
 a {
@@ -26,6 +44,10 @@ a {
    text-decoration: none;
    font-size: 0.875rem;
    line-height: 0rem;
+ }
+
+ p{
+    font-weight: 400;
  }
 
 button {
@@ -40,16 +62,15 @@ button {
     min-height: 100vh;
 }
 
-.button {
+.lightButton {
    font-family: 'Jost', sans-serif;
-   width: 15.2rem;
-   height: 5.6rem;
-   line-height: 5.6rem;
+   width: 152px;
+   height: 56px;
    text-align: center;
-   font-size: 1.5rem;
+   font-size: 15px;
    letter-spacing: 0.1rem;
-   font-weight: v(f500);
-   border-radius: 0.8rem;
+   font-weight: 500;
+   border-radius: 8px;
    z-index: 500; 
    text-transform: uppercase;
    background-color: var(--white);
@@ -57,8 +78,24 @@ button {
    transition: 0.2s ease-in-out;
 }
 
-.button:hover{
+.lightButton:hover, .darkButton:hover{
    cursor: pointer;
    background: var(--light-peach);
    color: var(--white);
+}
+
+.darkButton{
+   font-family: 'Jost', sans-serif;
+   width: 152px;
+   height: 56px;
+   text-align: center;
+   font-size: 15px;
+   letter-spacing: 0.1rem;
+   font-weight: 500;
+   border-radius: 8px;
+   z-index: 500; 
+   text-transform: uppercase;
+   background-color: var(--peach);
+   color: var(--white);
+   transition: 0.2s ease-in-out;
 }

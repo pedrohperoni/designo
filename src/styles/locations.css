@@ -1,0 +1,20 @@
+.locationsContainer{
+   width: 1100px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+.location{
+   position: relative;
+   top: 0;
+   left: 0;
+}
+
+.bgImg{
+   position: absolute;
+   top: 0;
+   left: 0;
+}
