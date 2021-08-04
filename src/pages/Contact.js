@@ -8,6 +8,7 @@ export function Contact(){
    return(
       <div className="main">
       <Header />
+      <Header />
       <main>
          <div className="contactMain">
             <div className="contactContainer">
