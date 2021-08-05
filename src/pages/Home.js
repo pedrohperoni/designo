@@ -3,6 +3,7 @@ import { Header } from "../components/Header";
 import "../styles/home.css"
 import phone from "../assets/images/home/desktop/image-hero-phone.png"
 import { GetInTouch } from "../components/GetInTouch";
+import { People } from "../components/People";
 
 
 export function Home(){
@@ -45,18 +46,11 @@ export function Home(){
                   </div>
                </div>
             </div>
-
-
-
-
-
-
-            <div className="featuresHome"></div>
-            <GetInTouch />
+            <People />
 
          </div>
       </main>
-
+      <GetInTouch />
       <Footer />
       </div>
    )
