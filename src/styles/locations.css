@@ -16,12 +16,12 @@
 }
 
 .countryInfoRight, .countryInfoLeft{
-   background-color: var(--peach);
+   background-color: var(--translucent-peach);
    border-radius:8px;
    width:65%;
    height:100%;
    display: flex;
-   align-items: center;
+   align-items:center;
    justify-content: center;
    flex-direction: column;
 }
@@ -35,10 +35,11 @@
 }
 
 
-.countryInfo h2{
+.countryInfoLeft h2, .countryInfoRight h2{
    margin-bottom: 20px;
-   color: var(--white)
+   color: var(--peach);
 }
+
 
 .countryContainer img{
    border-radius: 8px;
