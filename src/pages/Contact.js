@@ -1,6 +1,6 @@
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
-import { LocationsCards } from "../components/LocationsCards";
+import { LocationCards } from "../components/LocationCards";
 import "../styles/contact.css"
 import bigCircle from "../assets/images/contact/desktop/bg-pattern-hero-desktop.svg"
 
@@ -39,7 +39,7 @@ export function Contact(){
                   </form>
                </div>
             </div>
-            <LocationsCards />
+            <LocationCards />
          </div>
       </main>
       <Footer />

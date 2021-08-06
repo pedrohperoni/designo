@@ -5,7 +5,7 @@ import australia from "../assets/images/shared/desktop/illustration-australia.sv
 import unitedKingdom from "../assets/images/shared/desktop/illustration-united-kingdom.svg"
 import circle from "../assets/images/shared/desktop/bg-pattern-small-circle.svg"
 
-export function LocationsCards(){
+export function LocationCards(){
    return(
       <div className="locationCardsContainer">
          <div className="location">

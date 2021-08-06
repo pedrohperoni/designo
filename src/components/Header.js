@@ -16,7 +16,7 @@ export function Header(){
                   <span></span>
                </div>
                <nav className="headerLinks">
-                  <Link className="headerLink" to="/">OUR COMPANY</Link>
+                  <Link className="headerLink" to="/about">OUR COMPANY</Link>
                   <Link className="headerLink" to="/locations">LOCATIONS</Link>
                   <Link className="headerLink" to="/contact">CONTACT</Link>
                </nav>
